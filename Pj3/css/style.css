@@ -1,0 +1,44 @@
+.headdiv {
+  background-color: #ed4c5c;
+  display: flex;
+}
+.textdiv {
+  margin: 116px 125px 138px 165px;
+}
+.headh {
+  color: aliceblue;
+}
+.headp {
+  color: aliceblue;
+}
+.logo {
+  height: 24px;
+  width: 24px;
+}
+.imgdiv {
+  margin: 95px 260px 95px 125px;
+}
+
+.maindiv {
+  display: flex;
+}
+
+.maintext {
+  margin: 117px 114px 276px 176px;
+}
+.inputdiv {
+  margin: 117px 165px 123px 125px;
+}
+
+.topinput {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+.topinright {
+  margin-left: 30px;
+}
+.botselect {
+  margin-top: 24px;
+  margin-bottom: 27px;
+}

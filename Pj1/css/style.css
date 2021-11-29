@@ -1,0 +1,33 @@
+body{
+    background: #FAEBD7;
+    font-family: tahoma;
+    }
+
+    .title{
+           font-size: 50px;
+           color: sandybrown;
+           margin: 0 40%;
+
+    }
+    .text{
+outline-style: dotted;
+outline-color: gold;
+
+        color: #8B4513;
+        margin-right: 30%;
+        margin-left: 30%;
+        
+
+}
+.img{
+height: 20%;
+margin: 5% 5%;
+
+}
+ 
+.inv{
+    margin: 0 30%;
+    font-family: Times;
+    color: goldenrod;
+    outline-style: outset;
+}
