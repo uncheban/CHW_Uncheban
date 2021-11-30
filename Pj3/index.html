@@ -3,6 +3,12 @@
   <head>
     <meta charset="utf8" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
@@ -16,13 +22,21 @@
             cut any unnecessary expenses. Simply join today to get started!
           </p>
           <div class="logodiv">
-            <img src="images/vectorg.png" alt="img" class="logo" />
-            <img src="images/vectora.png" alt="img" class="logo" />
-            <img src="images/vectorw.png" alt="img" class="logo" />
+            <img
+              src="images/ion-logo-google-playstore.svg"
+              alt="img"
+              class="logo"
+            />
+            <img
+              src="images/ion-logo-apple-appstore.svg"
+              alt="img"
+              class="logo"
+            />
+            <img src="images/simple-icons_windows.svg" alt="img" class="logo" />
           </div>
         </div>
         <div class="imgdiv">
-          <img src="images/Mainimg.jpg" alt="img" />
+          <img src="images/Slider.svg" alt="svg" />
         </div>
       </div>
     </header>
@@ -35,43 +49,53 @@
             team will get back to you within 24 hours
           </p>
         </div>
-        <div class="inputdiv">
+        <form class="inputdiv">
           <div class="topinput">
             <input class="topinleft" type="text" placeholder="First Name" />
             <input class="topinright" placeholder="Last Name" />
           </div>
           <input class="botinput" placeholder="Phone Number" type="tel" />
-          <select class="botselect" aria-placeholder="Select Service"></select>
+          <select class="botselect">
+            <option selected disabled>Select Service</option>
+            <option value="Google pay">Google pay</option>
+            <option value="Apple pay">Apple pay</option>
+            <option value="Gachi pay">Gachi pay</option>
+            <option value="Easy pay">Easy pay</option>
+          </select>
           <button class="redbut">submit now</button>
-        </div>
+        </form>
       </div>
     </main>
     <footer>
-      <div class="topfootdiv">
-        <div>
+      <div class="mfootdiv">
+        <div class="dochdiv">
           <h3 class="footh">Address</h3>
           <p class="footp">
             Pipang Ltd, Griva Digeni, 81-83 Jacovides Tower, 1st Floor 1090
             Picosia USA
           </p>
         </div>
-        <div>
+        <div class="dochdiv">
           <h3 class="footh">Services</h3>
-          <p class="footp">
-            overview features technology Terms & Conditions Privecy
-          </p>
+          <ul class="footp">
+            <li>Overview</li>
+            <li>Features</li>
+            <li>Technology</li>
+            <li>Terms & Conditions</li>
+            <li>Privecy</li>
+          </ul>
         </div>
-        <div>
+        <div class="dochdiv">
           <h3 class="footh">Get in Touch</h3>
           <p class="footp">info@cloudbudget.com</p>
           <p class="footp">+1 844-721-7120</p>
           <div>
-            <img src="images/F.png" alt="png" class="footlogo" />
-            <img src="images/in.png" alt="png" class="footlogo" />
-            <img src="images/Twit.png" alt="png" class="footlogo" />
+            <img src="images/F.svg" alt="png" class="footlogo" />
+            <img src="images/Group.svg" alt="png" class="footlogo" />
+            <img src="images/Twitter.svg" alt="png" class="footlogo" />
           </div>
         </div>
-        <div>
+        <div class="dochdiv">
           <h3 class="footh">We Support</h3>
           <img src="images/secure.jpg" alt="jpg" class="footimage" />
         </div>
