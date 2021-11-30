@@ -1,3 +1,9 @@
+.content {
+  width: 1440px;
+  height: 1480px;
+  padding: 0 15px;
+}
+
 .headdiv {
   background-color: #ed4c5c;
   display: flex;
@@ -7,10 +13,14 @@
 }
 .headh {
   color: aliceblue;
-  font-family: 'Zen Kurenaido', sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000000;
 }
 .headp {
   color: aliceblue;
+  font-family: 'Zen Kurenaido', sans-serif;
 }
 .logo {
   height: 24px;
@@ -26,6 +36,12 @@
 
 .maintext {
   margin: 117px 114px 223px 176px;
+}
+.mainh {
+  font-family: 'Zen Kurenaido', sans-serif;
+}
+.mainp {
+  font-family: 'Zen Kurenaido', sans-serif;
 }
 .inputform {
   margin: 117px 165px 78px 125px;
@@ -79,6 +95,7 @@
   color: white;
   border: none;
   cursor: pointer;
+  font-family: 'Zen Kurenaido', sans-serif;
 }
 .mfootdiv {
   display: flex;
