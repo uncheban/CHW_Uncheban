@@ -88,6 +88,10 @@
   width: 264px;
   height: 264px;
 }
+.foothh {
+  margin-left: 40px;
+}
 .footp {
   list-style: none;
+  margin-left: 0px;
 }
