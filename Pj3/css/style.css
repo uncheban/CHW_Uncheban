@@ -27,8 +27,8 @@
 .maintext {
   margin: 117px 114px 223px 176px;
 }
-.inputdiv {
-  margin: 117px 165px 123px 125px;
+.inputform {
+  margin: 117px 165px 78px 125px;
   display: flex;
   flex-direction: column;
 }
@@ -82,6 +82,7 @@
 }
 .mfootdiv {
   display: flex;
+  margin: 85px 196px 186px 161px;
 }
 .dochdiv {
   margin: 30px;
