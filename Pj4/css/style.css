@@ -1,0 +1,79 @@
+.maingrid {
+  display: grid;
+  grid-template-columns: 132px 620px 440px;
+  grid-template-rows: 852px;
+}
+.leftsecgrid {
+  padding: 15px 42px 40px 42px;
+  justify-content: center;
+  display: grid;
+  background: black;
+  border-radius: 24px;
+}
+
+.padiv {
+  margin: 40px 0px;
+}
+.centtop {
+  display: grid;
+}
+.josh {
+  justify-content: center;
+  display: flex;
+  background: #f5f5f7;
+  border-radius: 14px;
+}
+.bloarrow {
+  display: flex;
+}
+.topcont {
+  background: #000000;
+  border-radius: 8px;
+  color: white;
+}
+.arrows {
+  border: 2px solid #000000;
+  box-sizing: border-box;
+}
+.centbottom {
+  display: grid;
+  grid-row-gap: 16px;
+}
+.catadivs {
+  background: #f5f5f7;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 750px;
+  height: 80px;
+}
+.viewbut {
+  background: #000000;
+  border-radius: 8px;
+  color: white;
+  justify-self: end;
+}
+.logoimg {
+  margin: 16px;
+  justify-self: start;
+}
+.autor {
+  margin: 19px 58px 19px 24px;
+}
+.time {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 33px 40px 33px 57px;
+}
+.rating {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 33px 31px 33px 57px;
+}
+.timefire {
+  width: 16px;
+  height: 16px;
+}
